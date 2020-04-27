@@ -44,7 +44,7 @@ public class PredicateExample {
         IntPredicate intPredicate = (i) -> i % 2 == 0;
         IntPredicate intPredicate1 = (i) -> i % 3 == 0;
         boolean test = intPredicate.or(intPredicate1).test(11);
-        System.out.println("11 can divided by 2 || 11 can dividec by 3 -> " + test);
+        System.out.println("11 can divided by 2 || 11 can divided by 3 -> " + test);
 
 
         // remove in list if item > 20
